@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "NyayInfra",
+    "slug": "nyayinfra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.example.nyayinfra",
+      "permissions": [],
+      "versionCode": 1
+    }
+  }
+}
