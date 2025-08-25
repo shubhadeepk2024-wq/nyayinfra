@@ -11,14 +11,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "android": {
-      "package": "com.example.nyayinfra",
-      "permissions": [],
-      "versionCode": 1
+    "ios": {
+      "bundleIdentifier": "com.nyayinfra.app"
     },
-    "sdkVersion": "51.0.0"
+    "android": {
+      "package": "com.nyayinfra.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
   }
 }
